@@ -1,0 +1,348 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.api\\svici.bo2.api.csproj": {}
+  },
+  "projects": {
+    "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.api\\svici.bo2.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.api\\svici.bo2.api.csproj",
+        "projectName": "svici.bo2.api",
+        "projectPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.api\\svici.bo2.api.csproj",
+        "packagesPath": "C:\\Users\\minthant.aungaung\\.nuget\\packages\\",
+        "outputPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minthant.aungaung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.application\\svici.bo2.application.csproj": {
+                "projectPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.application\\svici.bo2.application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.application\\svici.bo2.application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.application\\svici.bo2.application.csproj",
+        "projectName": "svici.bo2.application",
+        "projectPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.application\\svici.bo2.application.csproj",
+        "packagesPath": "C:\\Users\\minthant.aungaung\\.nuget\\packages\\",
+        "outputPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minthant.aungaung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.core\\svici.bo2.core.csproj": {
+                "projectPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.core\\svici.bo2.core.csproj"
+              },
+              "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.persistence\\svici.bo2.persistence.csproj": {
+                "projectPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.persistence\\svici.bo2.persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.core\\svici.bo2.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.core\\svici.bo2.core.csproj",
+        "projectName": "svici.bo2.core",
+        "projectPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.core\\svici.bo2.core.csproj",
+        "packagesPath": "C:\\Users\\minthant.aungaung\\.nuget\\packages\\",
+        "outputPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minthant.aungaung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.persistence\\svici.bo2.persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.persistence\\svici.bo2.persistence.csproj",
+        "projectName": "svici.bo2.persistence",
+        "projectPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.persistence\\svici.bo2.persistence.csproj",
+        "packagesPath": "C:\\Users\\minthant.aungaung\\.nuget\\packages\\",
+        "outputPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minthant.aungaung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.core\\svici.bo2.core.csproj": {
+                "projectPath": "D:\\MinThantAungAung\\Projects\\SVBO2\\apigee.prepaid.card.bo2.sys\\svici.bo2.core\\svici.bo2.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.21.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

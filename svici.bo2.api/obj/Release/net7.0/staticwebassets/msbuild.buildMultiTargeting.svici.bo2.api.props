@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\svici.bo2.api.props" />
+</Project>
